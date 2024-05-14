@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Just Another Hand', cursive;
+  color: #1a1a1a;
+}
+
+body {
+  background-color: #fffefc;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Navigation bar */
+
+header {
+  margin: 0 1.5rem;
+  padding: 1.8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.navigation_menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.items_menu {
+  font-family: 'fredoka';
+  font-size: 16px;
+  margin: 0.2rem 0;
+  text-decoration: none;
+}
+
+/* Principal items */
+
+.about {
+  margin: 0 1.5rem;
+  padding: 1.8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.about img {
+  width: 150px;
+}
+
+.about_text {
+  margin: 0.75rem auto 0 auto;
+  font-family: 'fredoka';
+  max-width: 550px;
+}
+
+.flavors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1.5rem;
+  padding: 1.8rem 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.cards {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #1a1a1a;
+  box-shadow: 4px 4px 0 #1a1a1a;
+  margin: 0.8rem;
+}
+
+.cards:nth-child(2n-1) {
+  box-shadow: -4px 4px 0 #1a1a1a;
+}
+
+.cards img {
+  margin: 0.8rem 0;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  width: 256px;
+  height: 132px;
+  object-fit: cover;
+}
+
+.cards h3 {
+  padding: 0 0.8rem;
+  align-self: start;
+}
+.cards p {
+  margin: 1rem 1rem;
+  text-align: end;
+}
+
+.strawberry {
+  align-self: end;
+  width: 165px;
+  color: #f78eaf;
+}
+
+.chocolate {
+  align-self: end;
+  width: 210px;
+  color: #714324;
+}
+
+.vanilla {
+  align-self: end;
+  width: 180px;
+  color: #7f7d7d;
+}
+
+/* Location */
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1.5rem;
+  padding: 1.8rem 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.card_store {
+  width: 280px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #1a1a1a;
+  box-shadow: -4px 4px 0 #1a1a1a;
+  margin: 0.8rem;
+}
+.card_store img {
+  margin: 0.8rem 0;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  width: 256px;
+  height: 132px;
+  object-fit: cover;
+}
+
+.card_store h3 {
+  padding: 0 0.8rem;
+  align-self: start;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1.5rem;
+  padding: 1.8rem 0;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+footer p {
+  font-family: 'fredoka';
+  font-size: 12px;
+  margin-bottom: 0.25rem;
+}
+
+.logo_footer {
+  font-size: 3rem;
+  margin-bottom: -0.75rem;
+}
+
+.social_logo {
+  margin: 0 5px;
+  width: 32px;
+}
